@@ -1,10 +1,11 @@
-# Variable settings in .env
-
-version: '3.8'
+# See variable settings in .env
+version: '3.9'
 
 services:
   db:
     image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
     restart: always
     environment:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
