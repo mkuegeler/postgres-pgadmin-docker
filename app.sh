@@ -81,7 +81,7 @@ stackstart()
 
 # Default message if no arguments
 if [ "$1" == "" ]; then
-    echo "Run script with parameters: build_image, local_run, repo_run, stop, start, rm, rmi, bash_run, stackup, stackdown, stackstop, stackdown"
+    echo "Run script with parameters: build_image, local_run, repo_run, stop, start, rm, rmi, bash_run, stackup, stackdown, stackstop, stackstart"
 fi
 
 # 1. Build image

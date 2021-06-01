@@ -43,7 +43,7 @@ The script `app.sh` facilitates the build and run process.
 chmod +x app.sh
 
 # Run script to use docker-compose
-# Options:  stackup, stackdown, stackstop, stackdown
+# Options:  stackup, stackdown, stackstop, stackstart
 bash ./app.sh
 
 # or just if it works in your terminal:
