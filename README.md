@@ -56,11 +56,12 @@ bash ./app.sh
 ```
 
 ## Configuration of postgres and pgadmin
-- Open http://localhost:8080 in your browser
+- Open http://localhost:8080 in your browser.
 - Sign in with your pgadmin email and password as defined in `.env`.
-- Navigate to Servers->Create->Server
+- Navigate to "Servers" on the left side, then right-click an select "Create -> Server".
 - Set user to `postgres` and use the password as defined in `.env.`
 - In the connection tab use `db` as "Host name/address" and `5423` as a port.
-- Create a database. See an example script here: `sql/parametric-elements.sql`.
+- See an example sql script here: `sql/parametric-elements.sql`. 
+- This database is being imported as a volumne in `stack.yml`. 
 
 
